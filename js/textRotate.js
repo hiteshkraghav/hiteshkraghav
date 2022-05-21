@@ -53,7 +53,7 @@ $(document).ready(function() {
     });//end document ready
     function changeImage(){
         $(".downloadCV").html("<p>Download my Resume</p><img src='img/dwnld.gif'>");
-        //window.open("https://docs.google.com/uc?authuser=0&id=0BzUOptk4o8-NY0xOVnBKOTBDdm8&export=download","_blank");
+        window.open("https://drive.google.com/u/0/uc?id=1tDjA7p4WF3VqTySRKS36JmnZ9-R5QpEb&export=download","_blank");
         $(".resume").addClass("downloaded");
         $(".downloaded").removeClass("resume");
        }
@@ -62,7 +62,7 @@ $(document).ready(function() {
 var skills = [
             {"header" : "INTERESTS",
               "captions" : [
-                "Digital Marketing",
+                "Photography",
                 "Web",
                 "PWAs",
                 "Design",
@@ -79,9 +79,9 @@ var skills = [
             {"header" : "CORE",
               "captions" : [
                 "CSS",
-                "AJAX",
+                "DB",
                 "HTML",
-                "jQuery",
+                "Java",
                 "JS"
               ],
               "values" : [
@@ -92,14 +92,14 @@ var skills = [
                 0.80
               ]
             },
-            {"header" : "Mordern Web",
+            {"header" : "Mordern Tech",
               "captions" : [
-                "Vue",
-                "FusionJs",
+                "Springboot",
                 "React",
-                "Angular",
-                "Weex"
-              ],
+                "CICD",
+                "Redux",
+                "Cloud"
+                ],
               "values" : [
                 0.80,
                 0.85,
